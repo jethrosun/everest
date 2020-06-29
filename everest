@@ -1035,8 +1035,7 @@ set_openssl () {
 build_fstar () {
   make -C FStar/src/ocaml-output $make_opts && \
   env OTHERFLAGS='--admit_smt_queries true' make -C FStar/ulib $make_opts && \
-  make -C FStar/ulib/ml $make_opts &&
-  make -C FStar/examples/layeredeffects $make_opts LowParseWriters.fst.checked
+  make -C FStar/ulib/ml $make_opts
 }
 
 build_kremlin () {
@@ -1057,8 +1056,8 @@ build_hacl () {
 }
 
 build_everparse () {
-    env OTHERFLAGS='--admit_smt_queries true' make -C quackyducky $make_opts &&
-    make -C quackyducky/tests/layeff $make_opts
+    env OTHERFLAGS='--admit_smt_queries true' make -C quackyducky/src/lowparse $make_opts &&
+    make -C quackyducky $make_opts
 }
 
 build_mitls () {
