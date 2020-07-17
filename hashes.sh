@@ -1,7 +1,7 @@
 declare -A hashes
 declare -A branches
-hashes[FStar]=f5ec8c43a60c47a43e0fc97e7facc2140aa8d744
-branches[FStar]=master
+hashes[FStar]=0b7ab7fd8c9a5db93f25b6b0d1490f75473745c1
+branches[FStar]=guido_noexix
 hashes[MLCrypto]=190250bbb8f16e7c3f6a8d443b13600ada4fbe79
 branches[MLCrypto]=master
 hashes[hacl-star]=ba955c21423c7cc6d782f1daa4a7841a424d4d01
