@@ -1070,7 +1070,9 @@ build_hacl () {
   rm -rf hacl-star/dist/*/{Makefile.basic,package.json}
   make -C hacl-star $make_opts &&
   make -C hacl-star/providers/quic_provider $make_opts &&
+  if ocamlfind query hacl-star-raw ; then ocamlfind remove hacl-star-raw ; fi &&
   make -C hacl-star/dist/gcc-compatible install-hacl-star-raw &&
+  if ocamlfind query hacl-star ; then ocamlfind remove hacl-star ; fi &&
   (cd hacl-star/bindings/ocaml && dune build @install && dune build && dune install)
 }
 
