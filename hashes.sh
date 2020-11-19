@@ -1,6 +1,6 @@
 declare -A hashes
 declare -A branches
-hashes[FStar]=2caed2b17fb9925669c4a5511fa1deebb3f065a2
+hashes[FStar]=5ba9c61c1b84479f8d2fef41a969c1753aba057a
 branches[FStar]=master
 hashes[MLCrypto]=190250bbb8f16e7c3f6a8d443b13600ada4fbe79
 branches[MLCrypto]=master
@@ -10,7 +10,7 @@ hashes[hacl-star]=1e5134dd915692fff37ba2d34cf7231e11aa2ad7
 branches[hacl-star]=master
 hashes[kremlin]=295f119db3fbbf237ba6c040576bc72a7691dbf8
 branches[kremlin]=master
-hashes[mitls-fstar]=a1d5056a89a355884b1cee1a42dbd23d995e1e4d
+hashes[mitls-fstar]=0b1db1795698f5ddd176691080ec5f58a011ae7a
 branches[mitls-fstar]=taramana_layeff_pldi2021
-hashes[quackyducky]=4a7d4f0f7654f3b28e47e520adebd9b5547cb74a
+hashes[quackyducky]=ef53c7b4f4cb84dd3cc4160f2f3720c9db6dcb7b
 branches[quackyducky]=taramana_layeff_pldi2021
