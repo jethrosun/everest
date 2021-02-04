@@ -63,7 +63,7 @@ function everest_move() {
 
     function feedback() {
         if $has_jq ; then
-            jq 'setpath(["'"$1"'";'"$2"'])' < $build_feedback > $build_feedback.tmp
+            jq 'setpath(["'"$1"'"];'"$2"')' < $build_feedback > $build_feedback.tmp
             mv $build_feedback.tmp $build_feedback
         fi
     }
