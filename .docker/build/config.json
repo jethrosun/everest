@@ -25,7 +25,7 @@
   
   "TrackPerformance" : false,
 
-  "CompressBuildFolder": true,
+  "CompressBuildFolder": false,
   "FolderToCompress" : "everest",
   "FoldersToExclude" : [ "everest/fstarlang_binaries" ]
 }
