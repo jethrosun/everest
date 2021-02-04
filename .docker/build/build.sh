@@ -95,7 +95,7 @@ function everest_move() {
     if [[ "$OS" == "Windows_NT" ]]; then
         everest_args="-windows pull_vale make test verify drop qbuild"
     else
-        everest_args="pull_vale make test verify"
+        everest_args="pull_vale"
     fi
     if ! $fresh; then
         # Bail out early if there's nothing to do
