@@ -1,14 +1,14 @@
 declare -A hashes
 declare -A branches
-hashes[FStar]=b21e4e5ba8ad1b8f893d56d651a21fd045dcc2fe
-branches[FStar]=master
-hashes[hacl-star]=d4b86a47cb7dc555bf2cc85d540da6e7bd6d8a7f
-branches[hacl-star]=master
+hashes[FStar]=b42e1bc3e462f34359c6d1294c0eb020ad7fe1b7
+branches[FStar]=aseem_pure_wp_monotonicity
+hashes[hacl-star]=852a75f5e42c3decd898fbe8c4334e11e89c38ec
+branches[hacl-star]=aseem_pure_wp_monotonicity
 hashes[kremlin]=5a8c41548147e548b258cefa755064a48cb31b39
 branches[kremlin]=master
 hashes[mitls-fstar]=29349d59bea2fb64f3a08fdfffb17f2eb744bf06
 branches[mitls-fstar]=master
 hashes[MLCrypto]=190250bbb8f16e7c3f6a8d443b13600ada4fbe79
 branches[MLCrypto]=master
-hashes[quackyducky]=e18fc514da6d7ecf23b4b2419804e20081225493
-branches[quackyducky]=master
+hashes[quackyducky]=5cb3674a5634af8ad2473ce36ff3345e18f88d3c
+branches[quackyducky]=aseem_pure_wp_monotonicity
